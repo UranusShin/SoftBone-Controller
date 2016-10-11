@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 3,
+
+	"FriendlyName" : "SoftBone Controller",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "HyojongS",
+	"Description" : "SoftBone controller is for a bone chain composed of jiggle bones",
+	"Category" : "Bone Controller",
+	"EnabledByDefault" : true,
+	"EngineVersion" : "4.11.2",
+	"Modules" :
+	[
+		{
+			"Name" : "SoftBone",
+			"Type" : "Runtime"
+		},
+		{
+			"Name" : "SoftBoneEditor",
+      "Type": "Developer",
+			"LoadingPhase" : "PreDefault"
+		}
+
+	]
+}
